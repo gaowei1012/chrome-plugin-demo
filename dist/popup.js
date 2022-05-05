@@ -6,9 +6,5 @@
  * @FilePath: /chromePlugin/src/popup.ts
  * @Description:
  */
-document.getElementById("content").innerText = "hello chrome plugin";
-document.getElementById("btn").onclick = function () {
-    console.log("hello");
-};
 // 打开新页面
 // chrome.tabs.create({ url: "https://www.baidu.com" });
